@@ -6,7 +6,7 @@ export const meta = {
         ? `Hyra bostad i ${city}: Se ${properties} lediga hyresbostäder`
         : `Hyra bostad i ${city}: Se alla lediga hyresbostäder`,
     description: (city: string) =>
-      `Letar du efter en bostad att hyra i ${city}? Vi har ett stort utbud av lediga bostäder från privata hyresvärdar utan kö. Hitta din nästa hyresbostad via Bostadsval!`,
+      `Letar du efter en bostad att hyra i ${city}? Vi har ett stort utbud av lediga bostäder från privata hyresvärdar utan kö. Hitta din nästa hyresbostad via Frontend!`,
   },
   lagenhet: {
     h1: (city: string) =>
@@ -16,7 +16,7 @@ export const meta = {
         ? `Hyra lägenhet i ${city}: Se ${properties} lediga hyreslägenheter`
         : `Hyra lägenhet i ${city}: Se alla lediga hyreslägenheter`,
     description: (city: string) =>
-      `Letar du efter en lägenhet att hyra i ${city}? Vi har ett stort utbud av lediga lägenheter från privata hyresvärdar utan kö. Hitta din nästa hyreslägenhet via Bostadsval!`,
+      `Letar du efter en lägenhet att hyra i ${city}? Vi har ett stort utbud av lediga lägenheter från privata hyresvärdar utan kö. Hitta din nästa hyreslägenhet via Frontend!`,
   },
   hus: {
     h1: (city: string) => `Hyra hus i ${city}: Se alla lediga hus här!`,
@@ -25,7 +25,7 @@ export const meta = {
         ? `Hyra hus i ${city}: Se ${properties} lediga hus`
         : `Hyra hus i ${city}: Se alla lediga hus`,
     description: (city: string) =>
-      `Letar du efter ett hus att hyra i ${city}? På Bostadsval har vi ett brett urval av lediga hus till uthyres. Kika här på Bostadsval och hitta ditt nästa hus att hyra!`,
+      `Letar du efter ett hus att hyra i ${city}? På Frontend har vi ett brett urval av lediga hus till uthyres. Kika här på Frontend och hitta ditt nästa hus att hyra!`,
   },
   stuga: {
     h1: (city: string) => `Hyra stuga i ${city}: Se alla lediga stugor här!`,
@@ -34,7 +34,7 @@ export const meta = {
         ? `Hyra stuga i ${city}: Se ${properties} lediga stugor`
         : `Hyra stuga i ${city}: Se alla lediga stugor`,
     description: (city: string) =>
-      `Letar du efter en stuga att hyra i ${city}? Vi har ett brett utbud av stugor, oavsett om du vill bo nära vattnet, på västkusten eller i fjällen! Hyr idag via Bostadsval!`,
+      `Letar du efter en stuga att hyra i ${city}? Vi har ett brett utbud av stugor, oavsett om du vill bo nära vattnet, på västkusten eller i fjällen! Hyr idag via Frontend!`,
   },
   rum: {
     h1: (city: string) => `Hyra rum i ${city}: Se alla lediga rum här!`,

@@ -21,47 +21,47 @@ export class AppService {
     return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://www.bostadsval.se/</loc>
+        <loc>https://frontend.nytrek.dev/</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/hyra-bostad</loc>
+        <loc>https://frontend.nytrek.dev/hyra-bostad</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/blogg</loc>
+        <loc>https://frontend.nytrek.dev/blogg</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/blogg/hyra-lagenhet-i-andrahand</loc>
+        <loc>https://frontend.nytrek.dev/blogg/hyra-lagenhet-i-andrahand</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/blogg/hyra-ut-i-andra-hand</loc>
+        <loc>https://frontend.nytrek.dev/blogg/hyra-ut-i-andra-hand</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/blogg/maste-man-ha-hemforsakring</loc>
+        <loc>https://frontend.nytrek.dev/blogg/maste-man-ha-hemforsakring</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/integritetspolicy</loc>
+        <loc>https://frontend.nytrek.dev/integritetspolicy</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/kakor</loc>
+        <loc>https://frontend.nytrek.dev/kakor</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/kontakta-oss</loc>
+        <loc>https://frontend.nytrek.dev/kontakta-oss</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/om-oss</loc>
+        <loc>https://frontend.nytrek.dev/om-oss</loc>
         <changefreq>weekly</changefreq>
       </url>
       <url>
-        <loc>https://www.bostadsval.se/villkor</loc>
+        <loc>https://frontend.nytrek.dev/villkor</loc>
         <changefreq>weekly</changefreq>
       </url>
     </urlset>
@@ -71,12 +71,12 @@ export class AppService {
   async generateSitemapIndex() {
     return `<?xml version="1.0" encoding="UTF-8"?>
     <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <sitemap><loc>https://www.bostadsval.se/sitemap-main.xml</loc></sitemap>
-    <sitemap><loc>https://www.bostadsval.se/sitemap-bostad.xml</loc></sitemap>
-    <sitemap><loc>https://www.bostadsval.se/sitemap-lagenhet.xml</loc></sitemap>
-    <sitemap><loc>https://www.bostadsval.se/sitemap-hus.xml</loc></sitemap>
-    <sitemap><loc>https://www.bostadsval.se/sitemap-stuga.xml</loc></sitemap>
-    <sitemap><loc>https://www.bostadsval.se/sitemap-rum.xml</loc></sitemap>
+    <sitemap><loc>https://frontend.nytrek.dev/sitemap-main.xml</loc></sitemap>
+    <sitemap><loc>https://frontend.nytrek.dev/sitemap-bostad.xml</loc></sitemap>
+    <sitemap><loc>https://frontend.nytrek.dev/sitemap-lagenhet.xml</loc></sitemap>
+    <sitemap><loc>https://frontend.nytrek.dev/sitemap-hus.xml</loc></sitemap>
+    <sitemap><loc>https://frontend.nytrek.dev/sitemap-stuga.xml</loc></sitemap>
+    <sitemap><loc>https://frontend.nytrek.dev/sitemap-rum.xml</loc></sitemap>
     </sitemapindex>
     `;
   }
@@ -95,7 +95,7 @@ export class AppService {
       (item) =>
         `
           <url>
-            <loc>https://www.bostadsval.se/hyra-bostad/${item}</loc>
+            <loc>https://frontend.nytrek.dev/hyra-bostad/${item}</loc>
             <changefreq>weekly</changefreq>
           </url>
         `,
@@ -114,14 +114,14 @@ export class AppService {
     return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://www.bostadsval.se/hyra-lagenhet</loc>
+        <loc>https://frontend.nytrek.dev/hyra-lagenhet</loc>
         <changefreq>weekly</changefreq>
       </url>
     ${cities.map(
       (item) =>
         `
           <url>
-            <loc>https://www.bostadsval.se/hyra-lagenhet/${item}</loc>
+            <loc>https://frontend.nytrek.dev/hyra-lagenhet/${item}</loc>
             <changefreq>weekly</changefreq>
           </url>
         `,
@@ -140,14 +140,14 @@ export class AppService {
     return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://www.bostadsval.se/hyra-hus</loc>
+        <loc>https://frontend.nytrek.dev/hyra-hus</loc>
         <changefreq>weekly</changefreq>
       </url>
     ${cities.map(
       (item) =>
         `
           <url>
-            <loc>https://www.bostadsval.se/hyra-hus/${item}</loc>
+            <loc>https://frontend.nytrek.dev/hyra-hus/${item}</loc>
             <changefreq>weekly</changefreq>
           </url>
         `,
@@ -166,14 +166,14 @@ export class AppService {
     return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://www.bostadsval.se/hyra-stuga</loc>
+        <loc>https://frontend.nytrek.dev/hyra-stuga</loc>
         <changefreq>weekly</changefreq>
       </url>
     ${cities.map(
       (item) =>
         `
           <url>
-            <loc>https://www.bostadsval.se/hyra-stuga/${item}</loc>
+            <loc>https://frontend.nytrek.dev/hyra-stuga/${item}</loc>
             <changefreq>weekly</changefreq>
           </url>
         `,
@@ -192,14 +192,14 @@ export class AppService {
     return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://www.bostadsval.se/hyra-rum</loc>
+        <loc>https://frontend.nytrek.dev/hyra-rum</loc>
         <changefreq>weekly</changefreq>
       </url>
     ${cities.map(
       (item) =>
         `
           <url>
-            <loc>https://www.bostadsval.se/hyra-rum/${item}</loc>
+            <loc>https://frontend.nytrek.dev/hyra-rum/${item}</loc>
             <changefreq>weekly</changefreq>
           </url>
         `,
@@ -230,7 +230,7 @@ export class AppService {
       (item) =>
         `
           <url>
-            <loc>https://www.bostadsval.se/hyra-${item.type_formatted}/${item.city_formatted}/${item.address_formatted}-${item._id}</loc>
+            <loc>https://frontend.nytrek.dev/hyra-${item.type_formatted}/${item.city_formatted}/${item.address_formatted}-${item._id}</loc>
             <changefreq>weekly</changefreq>
           </url>
         `,
@@ -261,7 +261,7 @@ export class AppService {
       (item) =>
         `
           <url>
-            <loc>https://www.bostadsval.se/hyra-${item.type_formatted}/${item.city_formatted}/${item.address_formatted}-${item._id}</loc>
+            <loc>https://frontend.nytrek.dev/hyra-${item.type_formatted}/${item.city_formatted}/${item.address_formatted}-${item._id}</loc>
             <changefreq>weekly</changefreq>
           </url>
         `,
