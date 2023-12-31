@@ -16,6 +16,7 @@ https://docs.docker.com/engine/reference/commandline/rmi/
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html
 https://medium.com/@mertcal/install-nginx-on-ec2-instance-in-30-seconds-e714d427b01b
 https://medium.com/@mudasirhaji/how-to-configure-nginx-as-a-reverse-proxy-on-aws-ec2-instance-270736ca2a50
+https://www.youtube.com/watch?v=bBA2yCnEf68
 https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
 https://www.geeksforgeeks.org/how-to-install-git-on-aws/
 https://stackoverflow.com/questions/51020596/amazon-ec2-error-listen-eacces-0-0-0-080
