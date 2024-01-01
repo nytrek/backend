@@ -8,6 +8,8 @@ Backend repo. Built using Nest.JS, Mongoose, TypeScript and Zod
 - type validation with [zod](https://github.com/colinhacks/zod)
 
 # References
+https://docs.aws.amazon.com/amplify/latest/userguide/to-add-a-custom-domain-managed-by-godaddy.html
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/migrate-dns-domain-in-use.html
 https://dev.to/mrrishimeena/revolutionize-your-nestjs-development-4-steps-to-dockerize-your-nestjs-app-6ea
 https://dev.to/mrrishimeena/nestjs-docker-aws-ec2-the-ultimate-combo-1ohd
 https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-docker.html
