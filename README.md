@@ -49,6 +49,35 @@ When I pulled the docker image from the registry I had to run docker run -p 3000
 - docker pull nytrek/backend:latest
 - docker run -p 3000:3001 nytrek/backend:latest
 
+## Steps to configure nginx
+
+- sudo yum install nginx
+- sudo vi /etc/nginx/nginx.conf
+- ```server {
+        server_name  api.nytrek.dev;
+
+        location / {
+        proxy_pass http://localhost:3000/;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+        }
+}```
+- sudo nginx -t
+- sudo systemctl restart nginx
+- sudo apt update
+- sudo dnf install python3 augeas-libs
+- sudo dnf remove certbot
+- sudo python3 -m venv /opt/certbot/
+- sudo /opt/certbot/bin/pip install --upgrade pip
+- sudo /opt/certbot/bin/pip install certbot certbot-nginx
+- sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
+- sudo certbot --nginx
+- echo "0 0,12 * * * root /opt/certbot/bin/python -c 'import random; import time; time.sleep(random.random() * 3600)' && sudo certbot renew -q" | sudo tee -a /etc/crontab > /dev/null
+- sudo /opt/certbot/bin/pip install --upgrade certbot certbot-nginx
+
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
