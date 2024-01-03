@@ -67,7 +67,6 @@ When I pulled the docker image from the registry I had to run docker run -p 3000
 }```
 - sudo nginx -t
 - sudo systemctl restart nginx
-- sudo apt update
 - sudo dnf install python3 augeas-libs
 - sudo dnf remove certbot
 - sudo python3 -m venv /opt/certbot/
